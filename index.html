@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en" data-edition="publication">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#1d3532"><title>PE Atlas</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<a class="skip-link" id="skipContent" href="#main">Skip to PE details</a>
+<header class="masthead"><a class="brand" href="./"><span class="brand-icon" aria-hidden="true">p<span>e</span></span><span class="brand-name">PE Atlas<small>Poison exon atlas</small></span></a></header>
+<div id="file-warning" class="notice hidden">Start PE Atlas using the included launch script.</div>
+<div class="workspace">
+<section class="catalog-browser" aria-label="Search the atlas">
+<div class="search-controls">
+<div class="search-field"><label for="search" class="field-label">Find a poison exon</label><div class="search-box"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg><input id="search" type="search" placeholder="Gene, PE or variant coordinates, ClinVar ID" value="EIF4A2" spellcheck="false" autocomplete="off" aria-controls="results"></div></div>
+<div class="evidence-field"><label for="evidence" class="field-label">Evidence</label><select id="evidence" aria-label="Evidence filter" aria-controls="results"><option value="">All evidence</option><option value="clinvar">ClinVar</option><option value="SNP">SNP / indel</option><option value="sQTL">sQTL</option></select></div>
+</div>
+<div class="search-meta"><div class="examples"><span>Examples</span><button data-query="EIF4A2">EIF4A2</button><button data-query="SLC6A15">SLC6A15</button><button data-query="PGS1">PGS1</button><button data-query="SCUBE2">SCUBE2</button><button data-query="MICAL3">MICAL3</button><button data-query="SLC9A7">SLC9A7 · ClinVar</button><button data-query="USP33">USP33 · MANE</button><button data-query="SETD2">SETD2 · Annotation</button></div><div id="catalog-stats"></div></div>
+<div id="results" class="cell-columns" aria-busy="false"></div>
+<div class="search-feedback"><span id="search-status" role="status" aria-live="polite"></span><button id="resetSearch" class="text-button hidden">Clear search and filters</button></div>
+</section>
+<main id="main" tabindex="-1"><div class="welcome"><h2>Loading the atlas…</h2></div></main>
+</div>
+<footer class="site-footer"><p>© Pengfei Liu Lab, Baylor College of Medicine</p></footer><div id="toast" role="status"></div><script src="config.js"></script><script src="app.js"></script></body></html>
